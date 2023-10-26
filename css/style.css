@@ -1,0 +1,27 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg-color: #EDEADE;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+#container {
+    text-align: center;
+}
+
+#board {
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+#reset {
+    margin-top: 3%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
