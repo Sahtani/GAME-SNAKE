@@ -6,7 +6,6 @@
     <title>Snake Game</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src = "./js/script.js" defer></script>
-    <script src="./js/p5.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,11 +16,16 @@
         <h1>Snake Game</h1>
         <p>Our snake game made by Soumia's squad for the class NightCrawlers.</p>
         <div id = "game">
-            <canvas id="board" width="500" height="500"></canvas>
-            <div id = "score">0</div>
-            <button id = "reset">Reset</button>
+            <canvas id="board"></canvas>
+            <div id = "score"></div>
         </div>
     </div>    
+
+    <div id = "container2">
+        <div class = "gameOverScreen">
+            <h2>Game Over</h2>
+        </div>
+    </div>
 </body>
 
 </html>
